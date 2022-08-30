@@ -6,7 +6,7 @@
 
 ## How to run
 
--   Simply run the main file using whatever preferred code editor you wish
+-   Simply run go inside the src/main/Main and run with preferably eclipse, as the project uses maven
 
 ## Developer thoughts
 
