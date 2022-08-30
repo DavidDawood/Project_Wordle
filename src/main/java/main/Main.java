@@ -10,7 +10,6 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		String selectWord = Words.wordStrings[new Random().nextInt(Words.wordStrings.length)];
 		System.out.println("Guess the 5 letter word!");
-		System.out.println(selectWord);
 		while (lives > 0) {
 			String guessedWord = scanner.next();
 			if (guessedWord.length() != 5) {
